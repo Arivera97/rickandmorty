@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+.card {
+  border: 10px solid transparent;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  width: 280px;
+  height: 500px;
+}
+.card h2 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 24px;
+  margin-top: 10px;
+  color: azure;
+}
+.card img {
+  width: 250px;
+}
