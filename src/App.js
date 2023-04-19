@@ -31,10 +31,12 @@ function App() {
     );
     setCharacters(charactersFiltered);
   };
+  
 
   return (
     <div className="App" style={{ padding: "25px" }}>
       <img src={image} className="img-rick"></img>
+      <img src={'https://movementstrategy.com/wp-content/themes/bigdrop-theme/mortyawardy/Crashing_Ship.png'} className="img-rick-morty"></img>
       <div className="order">
         <Nav onSearch={onSearch} />
         <Routes>
@@ -42,6 +44,7 @@ function App() {
           <Route path='/about' element={<About />}/>
           <Route path='/detail/:id' element={<Detail />}/>
         </Routes>
+        
       </div>
     </div>
   );

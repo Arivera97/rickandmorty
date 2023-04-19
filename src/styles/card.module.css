@@ -3,17 +3,35 @@
 .card {
   border: 10px solid transparent;
   padding: 20px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
-  background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  box-shadow: 0px 0px 40px 10px #448C3F;
+  margin: auto;
+  background-image: url('https://wallpapers-clan.com/wp-content/uploads/2021/08/rick-and-morty-portal-wallpaper-2-scaled.jpg');
   width: 280px;
   height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-size: cover;
 }
+  
 .card h2 {
   font-family: "Patrick Hand", cursive;
   font-size: 24px;
   margin-top: 10px;
-  color: azure;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+
 .card img {
   width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease-in-out;
 }
+
+.card img:hover {
+  transform: scale(1.1);
+}
+

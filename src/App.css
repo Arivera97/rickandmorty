@@ -1,10 +1,37 @@
 .App {
    text-align: center;
-   background-image: url('https://p4.wallpaperbetter.com/wallpaper/364/740/974/tv-show-rick-and-morty-morty-smith-planet-rick-sanchez-hd-wallpaper-preview.jpg');
-   width: 100vw;
-   height: 100vh;
-}
-.img-rick{
-   width: 400px;
+   background-image: url('https://images5.alphacoders.com/633/633151.jpg');
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .img-rick{
+   width: 100%;
+   max-width: 400px;
    margin-bottom: 40px;
+ }
+
+ .img-rick-morty {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 180px;
+  animation: levitate 2s ease-in-out infinite alternate;
+}
+
+@keyframes levitate {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }

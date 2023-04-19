@@ -7,10 +7,10 @@ export const Nav = ({onSearch}) => {
   return (
       <nav className={styles['navContainer']}>
         <button>
-            <Link to="/about"> ABOUT</Link>
+        <Link to="/home"> Inicio </Link>
         </button>
         <button>
-        <Link to="/home"> HOME </Link>
+        <Link to="/about"> Acerca de</Link>
         </button>
         <SearchBar onSearch={onSearch} />
       </nav>
