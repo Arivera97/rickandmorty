@@ -24,7 +24,8 @@ const Detail = () => {
   }, [id]);
 
   return <div className={styles.card}>
-    {character && <div>
+    {character && 
+    <div>
         <h2>{character?.name}</h2>
         <h2>{character?.status}</h2>
         <h2>{character?.species}</h2>
